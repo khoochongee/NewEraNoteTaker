@@ -29,8 +29,8 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
-        android:gravity="center"
-        android:text="Username"
+        android:gravity="left"
+        android:hint="Username"
         android:maxLines="1"/>
 
     <EditText
@@ -38,9 +38,9 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_input"
-        android:gravity="center"
+        android:gravity="left"
         android:inputType="textPassword"
-        android:text="Password"
+        android:hint="Password"
         android:maxLines="1"/>
     <Button
         android:id="@+id/btn_login"
